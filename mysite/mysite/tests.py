@@ -13,7 +13,7 @@ class TestCase1(TestCase):
   #      class_room_1 = ClassRoom.objects.get(name='Noveno Grado')
   #      class_room_2 = ClassRoom.objects.get(name='Decimo Grado')
 
-        self.assertEqual(1, 1)
+        self.assertEqual(1, 2)
 
     def test_hola(self):
         self.assertEqual('Hola Mundo', 'Hola Mundo')
